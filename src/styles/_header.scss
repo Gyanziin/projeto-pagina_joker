@@ -1,0 +1,28 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    z-index: 1000;
+
+    &__logo {
+        max-width: 120px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__toggle{
+        max-width: 60px;
+        cursor: pointer;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
